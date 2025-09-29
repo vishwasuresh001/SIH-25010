@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 30-09-2025
+## Register Number: 25012636
+## Name: VISHWA S
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -37,32 +37,69 @@ Supporting Data
 ## Problem Creater's Organization
 Government of Punjab
 
-## Theme
-Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+The proposed solution is a *Smart Crop Advisory System* that helps farmers make better decisions using digital tools.  
+It brings together crop advisory, soil and weather analysis, pest detection, and market insights into one platform.
+
+- Provides *personalized crop guidance* using soil data and weather updates.  
+- Helps address common issues faced by farmers such as unpredictable weather, pest attacks, and unstable market prices.  
+
+
+---
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+The system uses a modular design with different services connected through an API Gateway.
+
+- *Technologies*  
+  - Backend: Python (Django/Flask)  
+  - Frontend: JavaScript (React)  
+  
+
+- *Methodology*  
+  1. Farmers use the *mobile app or USSD service* to raise queries.  
+  2. Requests go through an *API Gateway* for routing and authentication.  
+  3. The request is sent to the right *backend service* (crop advisory, pest detection, weather/soil, market monitoring).  
+
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+
+### Feasibility
+The system is practical because it makes use of technologies that are already common in agriculture, such as weather APIs, mobile apps, and cloud storage.  
+It does not demand high-end infrastructure and can be expanded gradually as more farmers adopt it.
+
+---
+
+### Challenges
+- Limited digital literacy among small-scale farmers.  
+- Data accuracy issues when integrating soil and pest datasets.  
+
+---
+
+### Solutions
+- Training sessions and awareness campaigns to help farmers become familiar with the app and USSD services.  
+- Building partnerships with local agricultural officers to ensure reliable data collection.  
+- Updating AI models regularly with field data provided by agricultural universities.  
+
+---
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+
+### Impact on Farmers
+Farmers receive precise recommendations on when to sow, irrigate, and harvest, helping them avoid losses due to guesswork.  
+
+### Social Benefits
+Encourages rural communities to adopt digital tools, creating awareness and reducing their dependency on traditional word-of-mouth advice.  
+
+
+---
+## Flowchart
+<img width="791" height="503" alt="image" src="https://github.com/user-attachments/assets/3290eaed-ccdf-4e54-95b9-d5b255f0427e" />
+
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+- [World Bank – Digital Agriculture](https://www.worldbank.org/en/topic/agriculture/brief/digital-agriculture)  
+- [Indian Council of Agricultural Research (ICAR)](https://icar.org.in/)  
+- [Food and Agriculture Organization (FAO)](https://www.fao.org/home/en)  
+- [NITI Aayog – Technology in Agriculture](https://www.niti.gov.in/)
+
